@@ -1,0 +1,92 @@
+a {
+    color: black;
+    font-size: 12px;
+}
+div#panelDecryptJkoding {
+    padding: 5px;
+    box-shadow: 0 0 4px black;
+    border-radius: 10px;
+    background-color: #000000;
+}
+input#inputPassword {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#buttonPassword, #buttonCopyku {
+    font-size: 15px;
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+    background-color: #0dbb27;
+    color: #100c0c;
+}
+div#notifPassword {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+#outputDecrypt {
+    height: 350px;
+    width: 85%;
+    background-color: black;
+    color: #18b818;
+    font-size: 12px;
+}
+.notifSucces {
+    color:green;
+}
+.areaButtonCopyku {
+    text-align: center;
+}
+.titlePanelSaveScript {
+    background-color: #000000;
+    color: lime;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.areaPanelPass {
+    text-align: center;
+}
+.designBy {
+    font-size: 10px;
+    padding: 0;
+}
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.7;
+      animation: heartbeat 1.3s ease-in-out infinite;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+        }
+          @keyframes heartbeat {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    .link {
+      background-color: #000000;
+      font-size: 11px;
+      color: #00ff00;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .link:hover {
+      color: #FFB74D;
+    }
